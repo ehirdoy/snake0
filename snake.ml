@@ -1,4 +1,6 @@
 open Lwt.Infix
+open Js_of_ocaml
+open Js_of_ocaml_lwt
 
 let flip f x y = f y x
 let pi = 4.0 *. atan 1.0
